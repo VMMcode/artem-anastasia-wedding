@@ -107,7 +107,7 @@ h6 {
   /* размеры текста: 320px -> 400px */
   --fz-title: clamp(2.6rem, calc(0.2rem + 7.5vw), 3.2rem);
   --fz-name: clamp(2rem, calc(0.4rem + 5.7vw), 2.8rem);
-  --fz-text: clamp(1.3rem, calc(0.9rem + 1.25vw), 1.4rem);
+  --fz-text: clamp(1.5rem, calc(0.9rem + 1.25vw), 1.7rem);
   --fz-sticker: clamp(1.4rem, calc(0.6rem + 2.5vw), 1.6rem);
 }
 
@@ -482,7 +482,7 @@ section {
 
 /* --- Location-секция --- */
 .location__section {
-  padding: 6.4rem 0 5.6rem;
+  padding: 2rem 0 5.6rem;
 }
 
 .location__inner {
