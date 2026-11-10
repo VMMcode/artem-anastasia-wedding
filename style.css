@@ -88,7 +88,7 @@ h6 {
 /* --- Переменные --- */
 :root {
   --bg-color: #f9f5f2;
-  --text-color: #444444;
+  --text-color: #121212;
   --accent-color: #f21430;
   --card-color: #ffffff;
   --card-shadow:
@@ -248,7 +248,7 @@ section {
 }
 
 .hero__photos {
-  --polaroid-w: clamp(14rem, 42vw, 17rem);
+  --polaroid-w: clamp(16rem, 44vw, 20rem);
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -355,7 +355,7 @@ section {
 }
 
 .story__photo-wrap {
-  --polaroid-w: clamp(20rem, 58vw, 22.4rem);
+  --polaroid-w: clamp(22rem, 60vw, 24rem);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -364,7 +364,7 @@ section {
   margin-top: 4rem;
 }
 .story__photo {
-  transform: rotate(7deg);
+  transform: rotate(4deg);
 }
 .story__note {
   display: flex;
@@ -773,7 +773,7 @@ section {
 }
 
 .farewell__photo {
-  --polaroid-w: clamp(20rem, 58vw, 22.4rem);
+  --polaroid-w: clamp(24rem, 62vw, 26rem);
   transform: rotate(-4deg);
 }
 
